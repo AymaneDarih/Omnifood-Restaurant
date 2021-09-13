@@ -1,0 +1,409 @@
+ @media (max-width:78em /*1230px*/){ 
+    html{
+        font-size: 58%;
+        
+    }
+    .container{
+        max-width: 120rem;
+        padding: 4.2rem 0rem 4.2rem;
+    }
+    .hero-container{
+        max-width: 120rem;
+        padding: 3.2rem 3.2rem 4.8rem;
+        
+    }
+    .primary-heading{
+        font-size: 5rem;
+        line-height: 1.4;
+    }
+    .secondary-heading{
+        font-size: 1.8rem;
+    }
+    .text-num{
+        font-size: 1.6rem;
+    }
+    .hero-img img {
+        width: 100%;
+    }
+    .icon-mobile-nav[name="menu-outline"]{
+        visibility: hidden;
+    }
+}
+
+@media (max-width:61em /*971px*/){
+    html{
+        font-size: 52%;
+    }
+    .container{
+        max-width: 95rem;
+    }
+    .brand-logo{
+        height: 2rem;
+    }
+    .main-nav-link:link,
+    .main-nav-link:visited{
+        font-size: 1.6rem;
+    }
+    .hero-container{
+        max-width: 95rem;
+    }
+    .primary-heading{
+        font-size: 3.2rem;
+    }
+    .secondary-heading{
+        font-size: 1.6rem;
+        margin-bottom: 4.2rem;
+
+    }
+    .buttons{
+        margin-bottom: 6rem;
+    }
+    .client-img img{
+        width: 4rem;
+    }
+    .container-featured{
+        max-width: 95rem;
+    }
+    .featured-heading{
+        font-size: 1.4rem;
+    }
+    .logos{
+        gap: 3.4rem;
+    }
+    .logos img {
+        height: 3rem;
+        margin-top: 2.2rem;
+    }
+    .step-p-heading {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .step-s-heading {
+        font-size: 4rem;
+    }
+    .number {
+        font-size: 7rem;
+    }
+    .head-number {
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+    .under-head {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .app-screen {
+        width: 30%;
+    }
+    .meals-grid{
+        max-width: 100rem;
+    }
+    .meals {
+        padding: 3.2rem 1.2rem;
+    }
+    .head-tag span {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .flex-meals{
+        font-size: 1.8rem;
+    }
+    .head-list {
+        font-size: 2.2rem;
+    }
+    .testimonial-head {
+        font-size: 1.4rem;
+    }
+    .testimonial-subhead {
+        font-size: 4rem;
+    }
+    .testimonial-img {
+        width: 20%;
+        margin-bottom: 1.2rem;
+    }
+    .testimonial-text {
+        font-size: 1.6rem;
+    }
+    .test-grid{
+        max-width: 100rem;
+        grid-template-columns: 1fr;
+    }
+    .left-content {
+        padding: 4.8rem 2.2rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(6,1fr);
+        row-gap: 2.2rem;
+        margin-top: 3.2rem;
+    }
+    .text-pricing {
+        max-width: 95rem;
+    }
+    .text-pricing-head {
+        font-size: 1.4rem;
+    }
+    .text-pricing-subhead {
+        font-size: 4rem;
+    }
+    .card-grid {
+        max-width: 95rem;
+        padding: 8rem 7rem;
+        margin: 0 auto 13rem;
+    }
+    .grid-priv{
+        max-width: 95rem;
+        gap: 5.8rem;
+    }
+    .svg-priv{
+        font-size: 2.6rem;
+    }
+    .head-priv{
+        font-size: 2.2rem;
+    }
+    .sub-priv{
+        font-size: 1.4rem;
+    }
+    .cta-grid{
+        max-width: 95rem;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .left-content{
+        padding: 3.8rem 0;
+    }
+    .left-form-head{
+        font-size: 3.2rem;
+    }
+    .left-form-sub{
+        font-size: 1.6rem;
+    }
+    .cta-form{
+        grid-template-columns: 1fr;
+        gap: 2.2rem;
+    }
+    .main-nav-link.btn-cta.btn-form {
+        margin-top: 1.2rem;
+    }
+    .grid-footer {
+        max-width: 90rem;
+    }
+    .footer-heads {
+        font-size: 1.6rem;
+    }
+    .footer-links {
+        font-size: 1.4rem;
+    }
+    .copyright-text {
+        font-size: 1.2rem;
+    }
+    .address {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:48em) {
+    body{
+        width: 100%;
+    }
+    html{
+        font-size: 48%;
+    }
+    
+}
+@media (max-width:25.875em){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        font-size: 35%;
+        overflow-x: hidden;
+        
+    }
+    .container{
+        max-width: 60rem;
+        
+    }
+    .hero-container{
+        max-width: 65rem;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        background-color: #fff;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0;
+        transition: all 0.5s;
+
+        
+        
+    }
+    .main-nav-link:link,
+    .main-nav-link:visited{
+        font-size: 2.8rem;
+    }
+    .main-nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        pointer-events: none;
+        transition: all 0.5s;
+        position: absolute;
+        top: 20%;
+        gap: 5rem;
+        
+        
+    }
+    .nav-open nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+    .icon-mobile-nav[name="menu-outline"]{
+        visibility: visible;
+    }
+    .nav-open .icon-mobile-nav[name="menu-outline"]{
+        visibility: hidden;
+    }
+    .nav-open .icon-mobile-nav[name="close-outline"]{
+        display: block;
+        visibility: visible;
+        position: absolute;
+        top: 5%;
+        right: 3%;
+        
+        
+    }
+    
+    
+    .primary-heading,.secondary-heading{
+        text-align: center;
+    }
+    .buttons{
+        justify-content: center;
+    }
+    .hero-container{
+        grid-template-columns: 1fr;
+    }
+    .delivered-meals{
+        justify-content: center;
+    }
+    .client-img img {
+        margin-right: -1.5rem;
+    }
+    .hero-img img {
+        width:70%;
+        display: block;
+        margin: 3rem auto ;
+    }
+    .logos{
+        gap: 2.4rem;
+        flex-wrap: wrap;
+    }
+    .logos img {
+        height: 2.3rem;
+        margin-top: 3.2rem;
+    }
+    .steps{
+        padding: 5.6rem 1rem;
+    }
+    .step-s-heading {
+        font-size: 2.7rem;
+    }
+    .grid-steps{
+        margin: 8rem auto;
+        grid-template-columns: 1fr;
+    }
+    .img-app{
+        width: 100%;
+    }
+    .img-app.grid-img-mobile{
+        grid-row: 4;
+    }
+    .meals-grid{
+        grid-template-columns: repeat(2,1fr);
+        gap: 3.4rem;
+    }
+    .list{
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+    .testimonial-subhead {
+        font-size: 3.4rem;
+    }
+    .text-pricing{
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+    .text-pricing-subhead{
+        font-size: 3rem;
+    }
+    .card-grid{
+        max-width: 65rem;
+        padding: 8rem 11rem;
+        grid-template-columns: 1fr;
+        margin: 0 auto 5rem;
+    }
+    .paragraph-head{
+        max-width: 50rem;
+        margin: 1rem auto;
+        line-height: 1.6;
+    }
+    .grid-priv{
+        grid-template-columns: repeat(2,1fr);
+        padding: 8rem 5rem;
+    }
+    .cta-grid{
+        max-width: 50rem;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr;
+        margin-bottom: 12.8rem;
+    }
+    .left-side{
+        padding: 0rem 6rem;
+        margin: 1rem auto 0;
+    }
+    .img-form{
+        grid-row: 1;
+    }
+    .grid-footer{
+        max-width: 60rem;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 5rem;
+    }
+    .grid-content{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .icons{
+        margin-bottom: -4rem;
+    }
+    .contact-us{
+        grid-row: 2;
+    }
+}
+@media (max-width:20em){
+    .container{
+        max-width: 50rem;
+    }
+    .meals-grid{
+        gap: 0.4rem;
+    }
+    .meals{
+        padding:3.2rem 0.2rem;
+    }
+    .text-pricing{
+        max-width: 50rem;
+    }
+    .grid-footer{
+        max-width: 50rem;
+    }
+}
